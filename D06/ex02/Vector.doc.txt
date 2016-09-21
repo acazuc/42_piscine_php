@@ -1,0 +1,11 @@
+<- Vector ----------------------------------------------------------------------
+float magnitude(): retourne la longueur (ou "norme") du vecteur
+Vector normalize(): retourne le vecteur normalisé. Si le vecteur est déja normalisé, retourne une copie fraiche du vecteur.
+Vector add(Vector $vector): retourne le vecteur somme des deux vecteurs.
+Vector sub(Vector $rhs): retourne le vecteur difference des deux vecteur.
+Vector opposite(): retourne le vecteur opposé
+Vector scalarProduct($k): retourne le produit du vecteur avec un scalair
+float dotProduct(Vector $rhs): retourne le produit scalaire de deux vecteurs
+float cos(Vector $rhs): retourne le cosinus de l’angle entre deux vecteurs.
+Vector crossProduct(Vector $rhs): retourne le produit en croix de deux vecteurs
+---------------------------------------------------------------------- Vector ->

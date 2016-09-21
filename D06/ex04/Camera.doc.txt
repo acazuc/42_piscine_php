@@ -1,0 +1,11 @@
+<- Camera ----------------------------------------------------------------------
+Le constructeur de la classe attend un tableau. Les clefs attendues sont les suivantes :
+’origin’: Vertex positionnant la caméra dans le repère monde
+’orientation’: Matrice de rotation orientant la caméra dans le repère monde.
+’width’: Largeur en pixels de l’image voulue. Sert à calculer le ratio. Incompatible avec la clef ’ratio’.
+’height’: Hauteur en pixels de l’image voulue. Sert à calculer le ratio. Incompatible avec la clef ’ratio’.
+’ratio’: Ratio de l’image. Incompatible avec les clefs ’width’ et ’height’.
+’fov’: Le champs de vision de l’image projetée en degrés.
+’near’: Le plan de clipping proche.
+’far’: Le plan de clipping éloigné.
+---------------------------------------------------------------------- Camera ->

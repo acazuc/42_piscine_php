@@ -1,0 +1,53 @@
+table {
+	width:100%;
+	border-collapse:collapse;
+}
+td {
+	text-align:center;
+	width:5.5555%;
+	border:1px solid rgba(0, 0, 0, 0.5);
+}
+td.empty {
+	border:0px;
+}
+td.no-metal {
+	background-color:rgba(0, 255, 0, 0.5);
+}
+td.noble {
+	background-color:rgba(0, 0, 255, 0.5);
+}
+td.alcalin-earth {
+	background-color:rgba(139, 125, 107, 0.3);
+}
+td.alcalin {
+	background-color:rgba(255, 0, 0, 0.5);
+}
+td.metalloid {
+	background-color:rgba(139, 125, 107, 0.5);
+}
+td.halogen {
+	background-color:rgba(255, 255, 0, 0.5);
+}
+td.poor {
+	background-color:rgba(0, 0, 0, 0.3);
+}
+td.transition {
+	background-color:rgba(255, 192, 203, 0.5);
+}
+td.lanthanid {
+	background-color:#FFBFFF;
+}
+td.actinid {
+	background-color:#FF99CC;
+}
+.letter {
+	font-size:2vw;
+}
+.poids {
+	float:right;
+	font-size:0.7vw;
+}
+.number {
+	float:left;
+	font-size:0.7vw;
+}

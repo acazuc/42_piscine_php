@@ -1,0 +1,11 @@
+<- Render ----------------------------------------------------------------------
+Le constructeur de la classe
+Render attend un tableau. Les clefs attendues sont les suivantes :
+’width’ : Largeur de l’image générée, obligatoire.
+’height’ : Hauteur de l’image générée, obligatoire.
+’filename’ : Nom du fichier dans lequel sera sauvegardée l’image png crée, obligatoire.
+
+void renderVertex( Vertex $screenVertex ): Affiche un vertex en coordonnées "écran" dans l’image générée
+void renderTriangle( Triangle $triangle, $mode ): Affiche un triangle en coordonnées "écran" dans l’image générée selon le mode voulu. Le mode est l’une des trois constantes de classe
+void develop(): Sauvegarde l’image png générée sur le disque dur en utilisant le nom de fichier fourni au constructeur.
+---------------------------------------------------------------------- Camera ->

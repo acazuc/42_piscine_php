@@ -1,0 +1,3 @@
+<- Vector ----------------------------------------------------------------------
+Matrix mult( Matrix $rhs ): retourne une nouvelle matrice résulat de la multiplication des deux matrices.
+---------------------------------------------------------------------- Vector ->

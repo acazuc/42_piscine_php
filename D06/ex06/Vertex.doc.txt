@@ -1,0 +1,9 @@
+<- Vertex ----------------------------------------------------------------------
+verbose: booleen permettant de print des debugs lors des appels de fonctions
+private:
+  ascisse x
+  ordonne y
+  profondeur z
+  homogene w
+  Color color
+  ---------------------------------------------------------------------- Vertex ->

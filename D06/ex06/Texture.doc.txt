@@ -1,0 +1,4 @@
+<- Texture ----------------------------------------------------------------------
+Le constructeur de la classe Texture attend un tableau. Les clefs attendues sont les suivantes :
+’file’ : fichier de texture
+---------------------------------------------------------------------- Texture ->

@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#menu {
+  width: 1500px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 70px;
+  background: #222;
+  color: white;
+}
+
+#menu .item {
+  float: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+}
+
+#menu .item:hover {
+  background-color: #444;
+}
+
+#menu_right .item {
+  float: right;
+}
+
+#content {
+  width: 1498px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+}
+
+#item_list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#item_list th {
+  padding: 10px;
+  border-right: 1px solid #CCC;
+  border-bottom: 1px solid #555;
+}
+
+#item_list thead th:last-child {
+  border-right: 0;
+}
+
+#item_list td {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+  border-right: 1px solid #CCC;
+}
+
+#item_list tbody tr td:last-child {
+  border-right: 0;
+  text-align: right;
+}
+
+#item_list tbody tr td:last-child::after {
+  content: "€";
+}
+
+#item_list tbody tr td:first-child img {
+  width: 100px;
+}
+
+#login
+{
+	float:right;
+	margin-right: 50px;
+	width: 100px;
+}
+
+#pwd
+{
+	width: 100px;
+	float:right;
+	margin-right: 50px;
+	margin-bottom: 70px;
+}
+
+#button
+{
+	font-family: monospace;
+	font-size: medium;
+	padding: 15px;
+	width: 100px;
+	display:flex;
+	margin-left: 120px;
+}
+
+#create
+{
+	font-family: monospace;
+	font-size: medium;
+	padding: 15px;
+	width: 100px;
+	display:flex;
+	margin-left: 120px;
+}
+
+#c
+{
+	padding-top:10px;
+	line-height:20px;
+	color: white;
+	position:absolute;
+	right: 252px;
+	top:0px;
+	width: 270px;
+	height: 150px;
+	background-color: #222;
+}
+
+.pa
+{
+	padding-left: 10px;
+}
+
+#menu_sub {
+  width:100%;
+  background-color: #999;
+  height: 50px;
+  line-height: 50px;
+}
+
+#menu_sub .item {
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+  color: black;
+  font-weight: bold;
+}
+
+#menu_sub .item:hover {
+  background-color: #bbb;
+}
+
+label {
+  float: left;
+  width: 200px;
+  display: block;
+  padding: 5px;
+}
+
+form input[type=text], form input[type=password], form textarea {
+  padding: 5px;
+  margin: 5px;
+  width: 400px;
+}

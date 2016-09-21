@@ -1,0 +1,6 @@
+<- Triange ----------------------------------------------------------------------
+Le constructeur de la classe Triangle attend un tableau. Les clefs attendues sont les suivantes :
+’A’ : Vertex du premier point du triangle, obligatoire.
+’B’ : Vertex du second point du triangle, obligatoire.
+’C’ : Vertex du troisième point du triangle, obligatoire.
+---------------------------------------------------------------------- Camera ->
